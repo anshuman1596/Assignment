@@ -29,6 +29,7 @@ The 4 parameters are:
 	$python3 PropertyMatching.py
 
 --> Technical Detail:
+	
 	-Python language is used to write this program
 	-geopy library need to be install ($pip3 install geopy)
 	-Program detail:-
@@ -61,4 +62,4 @@ The 4 parameters are:
 Assumtion :
 	Instead of 10 mile cirlce i used 100 mile circle just for static data use
 
---> Could be done: Exception handling ,Database connectivity, Can be optimize as per requirment
+--> To be done: Exception handling ,Database connectivity, Can be optimize as per requirment
