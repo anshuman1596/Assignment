@@ -32,20 +32,26 @@ The 4 parameters are:
 	-Python language is used to write this program
 	-geopy library need to be install ($pip3 install geopy)
 	-Program detail:-
+		
 		def main() :- main function /starting function in which ask for user type.
+		
 		def Seller():- function take information of seller and provide info of interested buyer.
 				it also insert detail by calling InsertPropertyData(propertyDic).
 				it also call Matching function :-MatchRequirment(propertyDic).
+		
 		def Buyer():- Take requirment of buyer and display list of suitable property.
 				it also insert detail by calling InsertRequirmentData(requirmentDic)
 				it also call Matching function MatchProperty(requirmentDic)
 		
 		def MatchProperty(requirmentDic):- Matching function compare requirment with database and return suitable property with percentage.
 						Format :- [Id,lat,long,budget,bedroom,bathroom,percentage]
+		
 		def MatchRequirment(propertyDic):Match property detail with interseted buyer and return there list
 					return format :-[id,lat,long,minbudget,maxBudget,minbedroom,maxBedroom,minBathroom,maxBathroom,percentage]
 		
+		
 		def InsertPropertyData(propertyDic):-insert property data in database
+		
 		def InsertRequirmentData(requirmentDic):-#insert Data in data base with given input.
 							# min or max budget is not given then store min and max with 25% up and down
 							# min and max bedroom/bathroom is not given then store with +2/-2 up and down value
